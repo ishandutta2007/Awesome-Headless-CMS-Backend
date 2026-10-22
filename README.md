@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Headless-CMS-Backend/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Headless-CMS-Backend?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Headless-CMS-Backend/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Headless-CMS-Backend?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-CMS-Backend/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Headless-CMS-Backend?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-CMS-Backend/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Headless-CMS-Backend?style=flat-square&color=success" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Headless-CMS-Backend/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" /></a>
@@ -63,7 +63,7 @@ A comprehensive, market-indexed comparison of premier managed headless CMS servi
 
 ## ⚡ Open-Source GitHub Projects
 
-Explore the most prominent open-source headless CMS engines, BaaS platforms, and API-first content layers. **Sorted by GitHub stars (descending)**, with real-time badges linking to stargazers.
+Explore the most prominent open-source headless CMS engines, BaaS platforms, and API-first content layers. **Sorted by GitHub_Stars (descending)**, with real-time badges linking to stargazers.
 
 ### 1. **[Supabase](https://github.com/supabase/supabase)** [![Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)
 - **Tech Stack**: PostgreSQL, Elixir, Go, TypeScript
@@ -178,7 +178,7 @@ Your support keeps this guide fresh, accurate, and completely community-driven! 
 
 1. 🍴 Fork this repository.
 2. 🌿 Create your feature branch (`git checkout -b feature/add-new-cms`).
-3. 📝 Add or update entries following the established markdown schema (include name, star badge, tech stack, and key differentiators).
+3. 📝 Add or update entries following the established markdown schema (include name, Stars_Badge, tech stack, and key differentiators).
 4. 🚀 Submit a PR with a concise explanation.
 
 ---

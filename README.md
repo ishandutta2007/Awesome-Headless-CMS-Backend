@@ -30,65 +30,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global headless CMS market is estimated at approximately **USD 2.0B to USD 4.2B in 2026** and is growing at an estimated compound annual rate (CAGR) of 17%–21%. From a market structure standpoint, the sector is **moderately concentrated at the high-end enterprise layer**—anchored by well-funded category leaders like Contentful and Sanity—yet remains **highly fragmented across the broader ecosystem** where hundreds of specialized composable MACH tools, niche visual studios, and popular self-hosted open-source alternatives prevent single-vendor monopolization.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Contentful](https://www.contentful.com/)**  
-
-  The enterprise standard for API-first headless CMS. Mature content modeling UI, GraphQL and REST APIs, robust localization, and enterprise governance (SSO, roles, audit logs). Content lives in Contentful's database—not your repository. Best for large organizations that need a proven, managed platform with SLAs and compliance certifications.
-
-
-
-- **[Sanity](https://www.sanity.io/)**  
-
-  API-first headless CMS with real-time collaborative editing, GROQ query language, and a customizable React-based Studio. Content is stored in Sanity's Content Lake. **Best-in-class editor UX**—often cited as the smoothest authoring experience among headless CMS options . Best for content-heavy sites and marketing teams that prioritize editor experience.
-
-
-
-- **[Strapi Cloud](https://strapi.io/)**  
-
-  Managed hosting tier for the open-source Strapi CMS. The core Strapi is free and self-hostable; Strapi Cloud adds managed infrastructure, CDN, and zero-DevOps deployment . Best for teams that want Strapi's flexibility without managing servers.
-
-
-
-- **[Storyblok](https://www.storyblok.com/)**  
-
-  Visual editor-first headless CMS with component-based content modeling. Strong for marketing sites where editors want to see changes inline. API-first architecture with management and delivery APIs.
-
-
-
-- **[Prismic](https://prismic.io/)**  
-
-  API-first headless CMS with Slice Machine for component-driven development. Custom types and slices map cleanly to modern frontend component architectures. Best for teams building component-based websites with Next.js or Nuxt.
-
-
-
-- **[Hygraph (formerly GraphCMS)](https://hygraph.com/)**  
-
-  GraphQL-native headless CMS with a focus on content federation. Allows stitching content from multiple sources into a single GraphQL endpoint. Best for organizations that need to unify content across systems.
-
-
-
-- **[Ghost Pro](https://ghost.org/)**  
-
-  Managed hosting for the open-source Ghost publishing platform. Focused on blogs, newsletters, and memberships rather than general-purpose content modeling. Best for publishers and creators who want a purpose-built publishing platform.
-
-
-
-- **[Kontent.ai](https://kontent.ai/)**  
-
-  Enterprise headless CMS with strong content modeling, workflow, and localization capabilities. API-first with a focus on structured content. Best for enterprises with complex content operations.
+| Platform | Company Size (Valuation / Revenue) | Starting Paid Pricing | Free Tier / Free Trial Limits | Description & Key Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Contentful](https://www.contentful.com/)** | **USD 3.0B valuation** (~USD 350M total funding) | **USD 300/mo** (Lite tier) | **Free forever plan**: 1 space, up to 10 users, 25 content types, 10,000 records, 100K API calls/mo, 50 GB CDN bandwidth/mo, 2 locales. | Enterprise standard for API-first headless CMS. Mature content modeling UI, GraphQL/REST APIs, robust localization, and enterprise-grade governance (SSO, audit logs). |
+| **[Storyblok](https://www.storyblok.com/)** | **~USD 800M+ valuation** (USD 138M funding, ~USD 80M ARR) | **USD 99/mo** (Growth tier; USD 90.75/mo billed annually) | **Free forever plan**: 1 space, 1 user seat, 100,000 API requests/mo, 100 GB traffic/mo, 2 locales. | Visual editor-first headless CMS with component-based content modeling and real-time live preview. Ideal for marketing teams and agencies. |
+| **[Sanity](https://www.sanity.io/)** | **~USD 600M+ valuation** (USD 173M funding, >USD 40M ARR) | **USD 15/seat/mo** (Growth tier) | **Free forever plan**: 20 user seats, 2 datasets, 10,000 documents/dataset, 250K API requests/mo, 1M CDN requests/mo, 100 GB asset storage, 100 GB bandwidth/mo. | API-first headless CMS with real-time collaborative editing, GROQ/GraphQL query languages, and customizable React-based Studio. Best-in-class editor UX. |
+| **[Strapi Cloud](https://strapi.io/)** | **~USD 200M valuation** (USD 49M funding, ~USD 10M ARR) | **USD 29/project/mo** (Starter tier; billed annually) | **14-day free trial** of full cloud features (no permanent cloud free tier; core self-hosted Community Edition is permanently free). | Managed cloud infrastructure for Strapi CMS with zero-DevOps deployment, automated backups, and CDN. Best for teams wanting Strapi without server maintenance. |
+| **[Kontent.ai](https://kontent.ai/)** | **~USD 150M+ valuation** (USD 40M funding round) | **USD 990/mo** (Business tier; quote-based) | **Free Developer plan**: 2 environments, 2–3 users, 500 content items, 10,000 API calls/mo, 2 language variants. Also includes a **30-day free trial** of Business tier. | Enterprise-grade modular headless CMS with strong governance, content workflow engines, localization, and enterprise security certifications. |
+| **[Prismic](https://prismic.io/)** | **~USD 90M valuation** (USD 20M funding, ~USD 15M ARR) | **USD 15/mo** (Starter tier) | **Free forever plan**: 1 user seat, 2 locales, unlimited documents, baseline CDN bandwidth (strictly no paid overages allowed on free tier). | Component-driven headless CMS with Slice Machine for Next.js, Nuxt, and SvelteKit architectures. Smooth developer experience for component-based websites. |
+| **[Hygraph](https://hygraph.com/)** | **~USD 60M valuation** (USD 45M funding, ~USD 8M ARR) | **USD 199/mo** (Scale / Growth tier) | **Free forever plan (Hobby)**: 3 user seats, 1,000 content entries, 2 locales, 100 GB asset traffic/mo, 5 origin req/sec uncached rate limit. | GraphQL-native headless CMS with content federation capabilities, unifying data from external APIs, databases, and microservices into a single GraphQL endpoint. |
+| **[Ghost Pro](https://ghost.org/)** | **USD 11.15M ARR** (Non-profit Foundation, USD 0 outside valuation) | **USD 15/mo** (Starter tier; USD 18/mo billed monthly) | **14-day free trial** with full feature access, no credit card required upfront (self-hosted open-source software is free forever). | Purpose-built managed platform for independent publishing, subscription newsletters, and digital media memberships with 0% platform fee on creator revenue. |
 
 
 
